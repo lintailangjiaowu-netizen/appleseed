@@ -92,6 +92,8 @@ a:hover > .arrow { transform: translate(2px,-2px); }
 .facts-bar .tiny-label { font-size: 8px; }
 .facts-bar p { margin-top: 3px; font-size: 13px; display: flex; align-items: baseline; gap: 12px; }
 .facts-bar strong { font-size: 34px; font-weight: 500; line-height: 1.35; letter-spacing: -1.5px; }
+.facts-bar strong .approx { font-size: 14px; letter-spacing: 0; margin-right: 2px; }
+@media (max-width: 700px) { .facts-bar strong .approx { font-size: 11px; } }
 .facts-bar p > span { margin-left: -7px; font-size: 14px; }
 .facts-bar > a { justify-self: end; font-size: 12px; }
 .section h2, .section-heading h2 { font-size: clamp(28px,3.1vw,40px); line-height: 1.6; letter-spacing: -1.2px; }
